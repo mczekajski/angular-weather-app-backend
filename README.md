@@ -2,8 +2,8 @@
 
 Simple node backend that hits a 3rd party API without exposing API key in frontend code.
 
-I am using it with my Weather App: 
-Live demo: https://mczekajski.github.io/angular-weather-app/
+I am using it with my Weather App:  
+Live demo: https://mczekajski.github.io/angular-weather-app/  
 Repo: https://github.com/mczekajski/angular-weather-app
 
 ## Source
