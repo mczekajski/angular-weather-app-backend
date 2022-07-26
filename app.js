@@ -33,7 +33,7 @@ app.get("/api/city", async (req, res) => {
     const searchString = `q=${req.query.q}`;
   
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?${searchString}&appid=${process.env.WEATHER_API_KEY}&lang=pl`
+      `http://api.openweathermap.org/data/2.5/weather?${searchString}&appid=${process.env.WEATHER_API_KEY}&lang=en`
     );
     const results = await response.json();
 
